@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const foundUser = users.find(user => user.cpf === cpf && user.password === password);
 
         if (foundUser) {
+            sessionStorage.setItem('loggedCpf', foundUser.cpf);
             alert(`Bem-vindo(a), ${foundUser.name}!`);
             setTimeout(() => { window.location.href = 'menu.html'; }, 1000);
         } else {

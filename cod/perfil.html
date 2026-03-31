@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil - Retech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <a href="menu.html" class="btn-back"><i class="fas fa-arrow-left"></i></a>
+        
+        <form id="perfilForm">
+            <h2>Meu Perfil</h2>
+            
+            <div class="input-group">
+                <i class="fas fa-id-card"></i>
+                <input type="text" id="perfilCpf" disabled style="background: rgba(0,0,0,0.2); cursor: not-allowed;">
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" id="perfilNome" placeholder="Seu Nome" required>
+            </div>
+            
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="perfilSenha" placeholder="Nova Senha" required>
+            </div>
+            
+            <button type="submit">Salvar Alterações</button>
+            
+            <button type="button" id="btnDeletarConta" style="background: linear-gradient(135deg, var(--danger), #b91c1c); margin-top: 20px;">
+                <i class="fas fa-trash-alt"></i> Excluir Minha Conta
+            </button>
+        </form>
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="perfil.js"></script>
+</body>
+</html>
