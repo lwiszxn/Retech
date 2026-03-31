@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Saída - Retech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <a href="menu.html" class="btn-back"><i class="fas fa-arrow-left"></i></a>
+        <h2>Saída de Itens</h2>
+        <form id="saidaForm">
+            <div class="item-list" id="saidaList"></div>
+            <div class="input-group" style="margin-top: 20px;">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" id="localEnvio" placeholder="Local de envio" required>
+            </div>
+            <button type="submit">Confirmar Saída</button>
+        </form>
+    </div>
+    <script src="utils.js"></script>
+    <script src="saida.js"></script>
+</body>
+</html>

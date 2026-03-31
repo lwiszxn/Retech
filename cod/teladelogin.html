@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Retech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <form id="loginForm">
+            <img src="img/logo.png" alt="Logo RETECH" class="logo">
+            <h2>Bem-vindo</h2>
+            <div class="input-group">
+                <i class="fas fa-id-card"></i>
+                <input type="text" id="cpf" placeholder="CPF" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Senha" required>
+            </div>
+            <button type="submit">Entrar</button>
+            <p style="text-align: center; margin-top: 15px; font-size: 0.9em;">
+                Não tem conta? <a href="cadastro.html" style="color: var(--primary);">Cadastre-se</a>
+            </p>
+        </form>
+    </div>
+    <script src="utils.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Descarte - Retech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <a href="menu.html" class="btn-back"><i class="fas fa-arrow-left"></i></a>
+        <h2>Dispositivo para Descarte</h2>
+        <form id="descarteForm">
+            <div class="input-group">
+                <i class="fas fa-box"></i>
+                <input type="text" id="produto" placeholder="Produto" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-list-ul"></i>
+                <select id="estado" required>
+                    <option value="" disabled selected>Estado do produto...</option>
+                    <option value="Novo">Novo</option>
+                    <option value="Seminovo">Seminovo</option>
+                    <option value="Usado">Usado</option>
+                    <option value="Defeito">Com Defeito</option>
+                    <option value="Sucata">Sucata</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-hashtag"></i>
+                <input type="number" id="quantidade" placeholder="Quantidade" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-comment"></i>
+                <input type="text" id="motivo" placeholder="Motivo do descarte" required>
+            </div>
+            <button type="submit">Enviar para Inventário</button>
+        </form>
+    </div>
+    <script src="utils.js"></script>
+    <script src="descarte.js"></script>
+</body>
+</html>
