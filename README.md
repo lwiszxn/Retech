@@ -20,9 +20,3 @@ O projeto foi desenvolvido utilizando tecnologias front-end puras, sem dependên
 * **JavaScript (Vanilla):** Lógica de negócios, manipulação do DOM e controle de rotas.
 * **LocalStorage & SessionStorage:** Persistência de dados e gerenciamento de sessão do usuário no navegador.
 * **Font Awesome:** Biblioteca de ícones.
-
-## 🚀 Como Executar o Projeto
-
-1. Clone este repositório para a sua máquina local:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/retech.git](https://github.com/SEU_USUARIO/retech.git)
